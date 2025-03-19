@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Agentic operating system for enterprise",
-  description: "Enterprise AI platform built on the language of business to build and deploy AI-powered applications for search, discovery, advanced retrieval and process automation."
+  description: "Enterprise AI platform built on the language of business to build and deploy AI-powered applications for collaboration, process automation, advanced search, discovery and retrieval."
 };
 
 export default function RootLayout({

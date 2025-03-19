@@ -19,12 +19,12 @@ export default function Home() {
           <li className="mb-2 tracking-[-.01em]">
             Build internal {" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              apps/agents
+              programmes/agents
             </code>
             to automate your business operations.
           </li>
           <li className="tracking-[-.01em]">
-            Optimized for enterprise generative AI, search and discovery, and advanced retrieval.
+            Optimized for enterprise generative AI. Advanced search, discovery and retrieval.
           </li>
         </ol>
 
@@ -76,7 +76,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Agents
+          Programmes
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -91,7 +91,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Applications
+          Agents
         </a>
       </footer>
     </div>
