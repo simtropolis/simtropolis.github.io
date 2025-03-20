@@ -24,7 +24,7 @@ export default function Home() {
             to automate your business operations.
           </li>
           <li className="tracking-[-.01em]">
-            Optimized for enterprise generative AI. Advanced search, discovery and retrieval.
+            Optimised for enterprise generative AI. Advanced search, discovery and retrieval.
           </li>
         </ol>
 
@@ -37,14 +37,14 @@ export default function Home() {
           >
             Coming soon
           </a>
-          <a
+          {/* <a
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
             href="#"
             // target="_blank"
             rel="noopener noreferrer"
           >
             Subscribe
-          </a>
+          </a> */}
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
