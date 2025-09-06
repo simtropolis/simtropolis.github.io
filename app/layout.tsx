@@ -1,6 +1,6 @@
+import './globals.css'
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import {Geist, Geist_Mono } from 'next/font/google'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,22 +13,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Agentic operating system for enterprise",
-  description: "Enterprise AI platform built on the language of business to build and deploy AI-powered applications for collaboration, process automation, advanced search, discovery and retrieval."
+  title: "simtropolis - agentic operating system",
+  description: "deploy autonomous agents, ai-powered apps and tools to do work."
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+          className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}>{children}</body>
     </html>
-  );
+  )
 }
