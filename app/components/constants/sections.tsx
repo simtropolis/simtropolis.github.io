@@ -11,17 +11,22 @@ export const sections = [
   { 
     id: 'about', 
     title: 'history',
-    content: 'People have long imagined machines with human abilities – automata that move and devices that reason. Aristotle dreamed of automation, “For suppose that every tool we had could perform its task, either at our bidding or itself perceiving the need, of their own accord. This is an autonomous agent.'
+    content: 'People have long imagined machines with human abilities – automata that move and devices that reason. “For suppose that every tool we had could perform its task, either at our bidding or itself perceiving the need, of their own accord." This is an autonomous agent.'
   },
   { 
     id: 'features', 
     title: 'vision',
-    content: 'Specialised autonomous agents for coding, collaboration, process automation, advanced search, discovery and retrieval.'
+    content: 'Specialised autonomous agents, AI-powered apps and tools for coding, collaboration, process automation, advanced search, discovery and retrieval.'
+  },
+  {
+    id: 'testimonials',
+    title: 'coding',
+    content: 'Create 2D and 3D games from a unified interface powered by foundation models. Using a set of agents to design and execute advanced diffusion pipelines, generate textured 3D meshes with complex topology, rich geometric details, and high fidelity textures.'
   },
   { 
     id: 'testimonials', 
     title: 'game development',
-    content: 'Create 2D and 3D games from a unified interface powered by foundation models. Using a set of agentic tools to design and execute advanced diffusion pipelines, generate textured 3D meshes with complex topology, rich geometric details, and high fidelity textures.'
+    content: 'Create 2D and 3D games from a unified interface powered by foundation models. Using a set of agents to design and execute advanced diffusion pipelines, generate textured 3D meshes with complex topology, rich geometric details, and high fidelity textures.'
   },
   // {
   //   id: 'join',
